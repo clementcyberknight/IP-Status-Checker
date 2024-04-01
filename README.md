@@ -24,12 +24,12 @@ Suppose you have an input CSV file `ip_addresses.csv` with the following IP addr
 8.8.8.8
 10.0.0.1
 Executing the script will produce output similar to the following in the console:
-IP Address Status
-192.168.1.1 up
-8.8.8.8 up
-10.0.0.1 down
+- 192.168.1.1
+- 8.8.8.8
+- 10.0.0.1
+
 Simultaneously, it will generate an output CSV file `ip_status.csv` containing:
-IP Address,Status
-192.168.1.1,up
-8.8.8.8,up
-10.0.0.1,down
+- IP Address,Status
+- 192.168.1.1,up
+- 8.8.8.8,up
+- 10.0.0.1,down
